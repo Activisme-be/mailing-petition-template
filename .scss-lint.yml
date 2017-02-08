@@ -1,0 +1,7 @@
+linters:
+  IdSelector:
+    enabled: false
+  QualifyingElement:
+    enabled: false
+  VendorPrefix:
+    enabled: false

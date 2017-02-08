@@ -5,3 +5,7 @@ linters:
     enabled: false
   VendorPrefix:
     enabled: false
+  DuplicateProperty:
+    enabled: false
+  ImportantRule:
+    enabled: false

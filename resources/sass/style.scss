@@ -1,3 +1,9 @@
+// INCLUDES
+@import "_modules/colors";
+
+
+// SCSS SHEET
+
 html,
 body {
   height: 100%;
@@ -222,9 +228,9 @@ h6 .center-block {
 }
 
 #header {
-  color: #fff;
+  color: $color-white;
   position: fixed;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, .15);
   top: 0;
   left: 0;
   right: 0;
@@ -308,7 +314,7 @@ h6 .center-block {
   -o-transition: color 200ms ease-in;
   transition: color 200ms ease-in;
   font-size: 1.4rem;
-  text-shadow: 1px 1px #fff;
+  text-shadow: 1px 1px $color-white;
   font-weight: 400;
   padding: 0;
   font-weight: bold;
@@ -577,7 +583,7 @@ cite {
 }
 
 #splash {
-  color: #fff;
+  color: $color-white;
   max-width: 800px;
   position: absolute;
   z-index: 1;
@@ -585,7 +591,7 @@ cite {
 }
 
 #splash h1 {
-  color: #fff;
+  color: $color-white;
   font-weight: bold;
   line-height: 1.4;
   font-size: 5.2rem;
@@ -595,10 +601,10 @@ cite {
 }
 
 #splash h1 small {
-  color: #fff;
+  color: $color-white;
   font-size: 65%;
   font-weight: normal;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid $color-white;
   display: inline-block;
   margin: 0 50px;
 }
@@ -915,14 +921,14 @@ cite {
 
 #supporters-container .section-title,
 #supporters-container h3 {
-  color: #fff;
+  color: $color-white;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
 }
 
 #supporters-container h3 > small {
   font-size: 100%;
-  color: #fff;
-  border-bottom: 1px solid #fff;
+  color: $color-white;
+  border-bottom: 1px solid $color-white;
   display: inline-block;
 }
 
@@ -971,7 +977,7 @@ cite {
   line-height: 60px;
   text-align: center;
   background: #565656;
-  color: #fff;
+  color: $color-white;
   -webkit-border-radius: 300px;
   -moz-border-radius: 300px;
   border-radius: 300px;
@@ -1079,7 +1085,7 @@ cite {
     line-height: 6rem;
     text-align: center;
     background: #565656;
-    color: #fff;
+    color: $color-white;
     -webkit-border-radius: 300px;
     -moz-border-radius: 300px;
     border-radius: 300px;
@@ -1099,7 +1105,7 @@ cite {
 
 #footer {
   background: #565656;
-  color: #fff;
+  color: $color-white;
   font-family: "Roboto", sans-serif;
   padding: 1.4rem 0;
 }
@@ -1110,7 +1116,7 @@ cite {
 }
 
 #footer a {
-  color: #fff;
+  color: $color-white;
 }
 
 #go-top {
@@ -1224,7 +1230,7 @@ ul[class*="block-grid-"] .link-image {
   margin-left: -3rem;
   top: 50%;
   margin-top: -3rem;
-  color: #fff;
+  color: $color-white;
   position: absolute;
   -webkit-border-radius: 300px;
   -moz-border-radius: 300px;
@@ -1261,17 +1267,18 @@ body {
 }
 
 #wrap {
-  min-height: 100%;
   height: auto !important;
   height: 100%;
+  min-height: 100%;
 }
 
 body:not(.one-page) #header {
   position: static;
 }
 
-body:not(.one-page) section {
-}
+// body:not(.one-page) section {
+//
+// }
 
 body:not(.one-page) #content {
   box-shadow: none;

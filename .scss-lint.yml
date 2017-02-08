@@ -9,3 +9,5 @@ linters:
     enabled: false
   ImportantRule:
     enabled: false
+  SelectorDepth:
+    enabled: false

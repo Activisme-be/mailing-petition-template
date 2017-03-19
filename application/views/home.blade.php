@@ -237,7 +237,7 @@
                         <li><a target="_blank" href="http://twitter.com/intent/tweet?status=Stop-Theo-Francken+{{ base_url() }}" class="btn btn-block btn-primary twitter"><i class="fa fa-twitter"></i> Deel op Twitter</a></li>
                         <li><a target="_blank" href="https://plus.google.com/share?url={{ base_url() }}" class="btn btn-block btn-primary google"><i class="fa fa-google-plus"></i> Deel op Google</a></li>
                         <li><a target="_blank" href="#" class="btn btn-block btn-primary linkedin"><i class="fa fa-linkedin"></i> Deel op LinkedIn</a></li>
-                        <li><a target="_blank" href="#" class="btn btn-block btn-primary pinterest"><i class="fa fa-pinterest"></i>Deel op Pinterest</a></li>
+                        <!-- <li><a target="_blank" href="#" class="btn btn-block btn-primary pinterest"><i class="fa fa-pinterest"></i>Deel op Pinterest</a></li>-->
                     </ul>
                 </div>
                 <div class="col-sm-5 col-sm-offset-2 col-md-3 col-md-offset-2">
